@@ -10,3 +10,9 @@ Import the SQL file into your database management system to load the music store
 
 ## Project Purpose
 Analysis and exploration of music store data using SQL queries.
+
+
+-- Q1: Who is the most senior employee based on job title ?
+SELECT * FROM employee 
+ORDER BY levels DESC
+LIMIT 1
